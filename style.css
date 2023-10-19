@@ -13,19 +13,6 @@ body{
     line-height: 1.6em;
 }
 
-h1{
-    color: #00ff00;
-}
-
-p{
-    color: rgb(0,0,255);
-}
-
-
-* {
-    margin: 0;
-    padding: 0;
-}
 
 .container {
     min-height: 100vh;
@@ -33,7 +20,7 @@ p{
     justify-content: center;
     align-items: center;
     scroll-behavior: smooth;
-    background: #131313;
+    background: #f2f2f1;
     font-family:'Helvetica Neue', sans-serif;
 }
 
@@ -45,9 +32,6 @@ h1 a {
   text-shadow: #7c7c7c 2px 2px;
 }
 
-.logo {
-  width: 70%;
-}
 
 .center {
   display: block;
@@ -83,7 +67,7 @@ h1 a {
   width: 0;
   height: 0;
   color: #fff;
-  background-color: #191919;
+  background-color: #e8e8e8;
   animation: 1s grow ease forwards;
   text-align: center;
 }
@@ -95,7 +79,7 @@ h1 a {
 .nav_list a {
   text-decoration: none;
   font-size: 50px;
-  color: #fff;
+  color: #151515;
 }
 
 .nav_list_item {
@@ -119,7 +103,7 @@ h1 a {
   width: 0px;
   left: 0;
   bottom: 10px;
-  background: #BF2E97; 
+  background: #6fa19a; 
   transition: all .5s ease;
 }
 
@@ -144,7 +128,7 @@ h1 a {
   font-size: 30px;
   align-items: center;
   justify-content: center;
-  background-color: #BF2E97;
+  background-color: #cf5f56;
   color: #fff;
   content: "×";
   cursor: pointer;
