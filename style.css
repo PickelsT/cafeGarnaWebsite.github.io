@@ -41,7 +41,20 @@ h1 a {
   margin-bottom: auto;
 }
 
+.tCenter {
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 2%;
+}
 
+.textBody {
+margin-right: 25%;
+margin-left: 25%;
+}
+
+.title {
+  text-align: center !important;
+}
 
 .popover {
    display: none;
@@ -135,6 +148,18 @@ h1 a {
   opacity: 0; 
   animation: 1s fadeIn ease forwards .5s;
 }
+
+.bgImage {
+
+  margin: 0; padding: 0; }
+
+  html { 
+      background: url('images/bgFull.svg') no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
 
 @keyframes grow {
   100% {
