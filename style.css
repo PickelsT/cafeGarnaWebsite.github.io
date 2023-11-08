@@ -1,6 +1,5 @@
 
 body{
-    background-color: #f4f4f4;
     color: #555555;
 
     font-family: Arial, Helvetica, sans-serif;
@@ -50,6 +49,33 @@ h1 a {
 .textBody {
 margin-right: 25%;
 margin-left: 25%;
+}
+
+.imageCorner {
+  background: black;
+  position: relative !important;
+  background-size: 100% 100%;
+  background-color: black;
+}
+
+.imageBoxTopRight {
+  scale: 75%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: -6%;
+  right: -3%;
+  margin-right: 0 !important;
+}
+
+.imageBoxTopLeft {
+  width: 200px;
+  height: 200px;
+  scale: 75%;
+    position: absolute;
+  top: -6%;
+  left: -3%;
+  margin-left: 0 !important;
 }
 
 .title {
